@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="sidebar.css" /> <!-- Add sidebar CSS -->
+    <link rel="stylesheet" href="leaflet.css" />
+</head>
+<body>
+
+<div id="map"></div>
+
+<audio autoplay loop>
+    <source src="sounds/sea.mp3" type="audio/mpeg">
+</audio>
+
+
+<audio autoplay loop volume="0.1">
+    <source src="sounds/seagul.mp3" type="audio/mpeg">
+</audio>
+  
+
+<!-- Sidebar -->
+<div id="sidebar">
+    <div class="bg-sidebar">
+       <img src="images\backG.png">
+    </div>
+    <div id="sidebar-content">
+        <div id="point1">
+            <h2 id="titleSideBar"></h2>
+            <img id="imageSideBar" src="">
+            <p id="textSideBar"></p>
+        </div>
+        
+        <!-- <div id="point2">
+            <img id="img1" src="images\imgTX.png">
+            <p id="tx1">text1 </p>
+        </div> -->
+
+    </div>
+    
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="scripts.js"></script>
+<!-- <script src="mapAnimaptions.js"></script> -->
+<script src="sidebar.js"></script> <!-- Add sidebar JavaScript -->
+</body>
+</html>

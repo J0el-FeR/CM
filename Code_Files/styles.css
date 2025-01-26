@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+#map {
+    height: 100vh; /* Take up 100% of the viewport height */
+    width: 100vw; /* Take up 100% of the viewport width */
+    z-index: 0;
+}
+
+

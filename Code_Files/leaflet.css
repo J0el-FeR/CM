@@ -1,0 +1,14 @@
+.leaflet-popup-content img {
+    max-width: 100%;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip-container, .leaflet-popup-close-button {
+    display: none;
+}
+
+/* Set a fixed size for images within Leaflet popups */
+.leaflet-popup-content img {
+    max-width: 100%; /* Ensure images don't exceed the size of their container */
+    width: 50px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+}
